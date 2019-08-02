@@ -62,7 +62,7 @@ if __name__ == '__main__':
 		else:
 			config.set('Credentials','id',str(server.gsfId))
 			config.set('Credentials','token',server.authSubToken)
-			with open('4pk.py','w') as configfile:
+			with open('4pk.conf','w') as configfile:
 				config.write(configfile)
 		
 	print('\033[92m'+'Logged in successfully'+'\033[0m')
